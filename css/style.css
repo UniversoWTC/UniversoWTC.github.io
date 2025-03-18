@@ -105,6 +105,21 @@
     background-color: #000000;
     background-position: top;
   }
+
+  .bg-imagelb {
+    background: url(../img/bg/lb.png), no-repeat center center;
+    background-size: cover;
+    background-color: #000000;
+    background-position: top;
+
+  }
+  .bg-imagelb:hover {
+    background: linear-gradient(rgba(33, 30, 28, 0.7), rgba(33, 40, 28, 0.7)), url(../img/bg/umineko.png);
+    background-size: cover;
+    background-color: #000000;
+    background-position: top;
+  }
+
   [tabindex="-1"]:focus:not(:focus-visible) {
     outline: 0 !important;
   }
