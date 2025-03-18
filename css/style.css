@@ -114,7 +114,7 @@
 
   }
   .bg-imagelb:hover {
-    background: linear-gradient(rgba(33, 30, 28, 0.7), rgba(33, 40, 28, 0.7)), url(../img/bg/umineko.png);
+    background: linear-gradient(rgba(33, 30, 28, 0.7), rgba(33, 40, 28, 0.7)), url(../img/bg/lb.png);
     background-size: cover;
     background-color: #000000;
     background-position: top;
