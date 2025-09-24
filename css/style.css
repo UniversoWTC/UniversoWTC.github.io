@@ -130,8 +130,13 @@
     overflow: visible;
   }
   
-  h1, h2, h3, h4, h5, h6 {
+  h1, h2, h3, h4, h5 {
     margin-top: 0;
+    margin-bottom: 0.5rem;
+  }
+
+   h6 {
+    margin-top: 1rem;
     margin-bottom: 0.5rem;
   }
 
@@ -478,7 +483,7 @@
   }
   
   h6, .h6 {
-    font-size: 1rem;
+    font-size: 1.25rem;
   }
   
   .lead {
@@ -9404,6 +9409,12 @@
   .text-white {
     color: #fff !important;
   }
+  .text-pregunta {
+    color: #4EE4FF !important;
+  }
+  .text-respuesta {
+    color: #FF4E4E !important;
+  }
   .text-cyan {
     color: cyan !important;
   }
@@ -9771,7 +9782,7 @@
     height: calc(100% + 40px);
   }  
   .bg-banner {
-    background: linear-gradient(rgba(33, 30, 28, 0.5), rgba(33, 40, 28, 0.5)), url(../img/bg/fondo1.png), no-repeat center center;
+    background: linear-gradient(rgba(33, 30, 28, 0.5), rgba(33, 40, 28, 0.5)), url(../img/bg/fondo2.png), no-repeat center center;
     background-position: center;
     background-size: cover;
   }
