@@ -120,6 +120,21 @@
     background-position: bot;
   }
 
+  .bg-imageGolden {
+    background: url(../img/bg/GoldenPrincipal.png), no-repeat center center;
+    background-size: cover;
+    background-color: #000000;
+    background-position: bot;
+
+  }
+  .bg-imageGolden:hover {
+    background: linear-gradient(rgba(33, 30, 28, 0.7), rgba(33, 40, 28, 0.7)), url(../img/bg/GoldenPrincipal.png);
+    background-size: cover;
+    background-color: #000000;
+    background-position: bot;
+  }
+
+
   [tabindex="-1"]:focus:not(:focus-visible) {
     outline: 0 !important;
   }
